@@ -84,10 +84,10 @@
           </div>
         </div>
         <div class="form-group">
-          <label for="nodes" class="col-sm-2 control-label">Nodes</label>
+          <label for="nodes" class="col-sm-2 control-label">Location</label>
           <div class="col-sm-10">
             <select name="node" class="form-control">
-              <option value="ALL"><?php echo __('All nodes');?></option>
+              <option value="ALL"><?php echo __('All');?></option>
               <?php
                   foreach($sysconf['node'] as $idx => $node) {
                     echo '<option value="'.$idx.'">'.$node['desc'].'</option>';
@@ -144,7 +144,7 @@
                 <label class="col-sm-2 control-label"><?php echo __('Location');?></label>
                 <div class="col-sm-10">
                   <select name="node" class="form-control">
-                    <option value="ALL"><?php echo __('All nodes');?></option>
+                    <option value="ALL"><?php echo __('All');?></option>
                     <?php
                         foreach($sysconf['node'] as $idx => $node) {
                           echo '<option value="'.$idx.'">'.$node['desc'].'</option>';
