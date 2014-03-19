@@ -1,6 +1,7 @@
 # Nayanes Themes
 
 Themes for Nayanes
+- [NBoot3](https://github.com/go2n/nayanes-themes/tree/master/nboot3)
 
 ## Nayanes: The SLiMS Search Proxy
 
