@@ -14,7 +14,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
+    <link rel="shortcut icon" href="templates/nboot3/assets/images/favicon.ico">
 
     <title><?php echo $page_title; ?></title>
 
@@ -73,7 +73,6 @@
 
     <!-- container -->
     <div class="container">
-
       <!-- simpe search -->
       <form class="well form-horizontal" role="form">
         <div class="form-group">
