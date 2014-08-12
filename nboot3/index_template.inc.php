@@ -48,7 +48,7 @@
             <span class="icon-bar"></span>
           </button>
           <a href="index.php"><img src="templates/nboot3/assets/images/logo.png" class="navbar-text logo pull-left" /></a>
-          <a class="navbar-brand" href="index.php">Nayanes: SLiMS Search Proxy</a>
+          <a class="navbar-brand" href="index.php">Nayanes</a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
@@ -73,6 +73,13 @@
 
     <!-- container -->
     <div class="container">
+    
+	<div class="alert alert-info alert-dismissible" role="alert">
+		<button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+		<h2>Nayanes <small>The SLiMS Search Proxy.</small></h2>
+		<p class="lead">Federated search engine, it fetch bibliographic records from Senayan Library Management System service.</p>
+	</div>
+
       <!-- simpe search -->
       <form class="well form-horizontal" role="form">
         <div class="form-group">
